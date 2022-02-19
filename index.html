@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>妖怪ウォッチBlack</title>
+	<link rel="icon" href="icon.png">
+	<link rel="stylesheet" type="text/css" href="index.css">
+<style>
+	body{
+		background-image: url(mainbackground.jpg) ;
+		background-size: cover;
+		text-align: center;
+		background-attachment: fixed;
+	}
+	.mainboard{
+		background-color: #300000;
+		color: white;
+	}
+	.gaiyou{
+		background-color: white;
+		color: black
+	}
+</style>
+
+</head>
+<body>
+
+	<!--———————————————————————————————————————————————————————————————————————
+		‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖
+		
+		このサイトは
+
+		J.S.Studio　JUN-SUZU　jun2006master
+		
+		が制作致しました。
+
+		ページの制作に協力していただいたみなさま、
+		本当にありがとうございました。
+
+		‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖
+		———————————————————————————————————————————————————————————————————————
+	-->
+
+<div class="mainboard">
+	<h1>妖怪ウォッチBlack</h1>
+</div>
+
+<div>
+<p><a href="yokai4.html"><img src="4icon.jpg"></a></p>
+<p><a href="yokai3.html"><img src="3icon.png"></a></p>
+<p><a href="yokai2.html"><img src="2icon.jpg"></a></p>
+<p><a href="yokai1.html"><img src="1icon.png"></a></p>
+</div>
+<a href="Hackers.html" class="gaiyou" target="_blank">ウェブページ開発・チートコード制作</a>
+
+  <script type="text/javascript">
+        window.addEventListener('load', function() {
+          var agent = navigator.userAgent;
+          if (agent.search(/iPhone/) != -1 || agent.search(/iPad/) != -1 || agent.search(/iPod/) != -1 || agent.search(/Android/) != -1) {
+            redirect();
+          }
+        });
+        function redirect() {
+          if (window.confirm('スマートフォン向けページに移動しますか？')) {
+            location.href = "SP.html";
+          }
+        }
+    </script>
+
+
+</body>
+</html>
+
